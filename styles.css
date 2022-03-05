@@ -47,23 +47,17 @@ header {
 
 @media (min-width: 376px) and (max-width: 1024px){
  
-
-.logo img {
-    width: 380px;
-    height: 90px;
-}
-
+    .logo img {
+        width: 334px;
+        height: 79px;
+    }
    
-    
+    .navegacion {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -152,6 +146,48 @@ footer {
     .app {
         visibility: hidden;
     }
+ }
+
+
+
+ /*Contenido Index*/ 
+
+ 
+.principal {
+    background-image: url(img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 85vh;
+}
+
+.titulo {
+    margin: 30px 0 0 40px;
+    color: rgb(58, 50, 50);
+}
+
+
+@media (max-width: 375px) {
+ 
+.principal {
+    height: 46vh;
+}
+
+.titulo {
+    margin-bottom: 30px 0 0 0;
+    text-align: center;
+
+}
+
+    
+}
+
+@media (min-width: 376px) and (max-width: 1024px){
+
+   .principal {
+        height: 80vh;
+   }
+
  }
 
 
