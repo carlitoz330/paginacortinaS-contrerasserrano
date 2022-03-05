@@ -192,4 +192,83 @@ footer {
 
 
 
+ /*Contenido productos*/
+
+ .contenedor-pro {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid gainsboro;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 430px;
+    padding: 17px 0;
+    margin: 15px 0;
+
+}
+
+
+.tarjeta_imagen {
+    border-radius: 20px;
+}
+
+.tarjeta_titulo {
+    text-align: center;
+    color: rgb(46, 44, 44);
+   
+}
+
+.tarjeta_descripcion {
+    text-align: center;
+    width: 400px;
+}
+
+@media (max-width: 375px) {
+
+    .tarjeta {
+       
+        width: 330px;
+        padding: 13px 0;
+        margin: 10px 0;
+    
+    }
+
+    img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .tarjeta_descripcion {
+        width: 300px;
+    }
+
+ 
+}
+
+
+@media (min-width: 376px) and (max-width: 1024px){
+
+    .tarjeta {
+       
+        width: 360px;
+    
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .tarjeta_descripcion {
+        width: 320px;
+    }
+ 
+  }
+
+
 
