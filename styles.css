@@ -8,7 +8,7 @@
     text-align: center;
     font-size: 35px;
     width: 100%;
-    margin: 10px 0;
+    margin-bottom: 15px;
     
 }
 
@@ -222,7 +222,7 @@ footer {
     border: 3px solid gainsboro;
     border-radius: 10px;
     font-size: 20px;
-    width: 430px;
+    width: 400px;
     padding: 17px 0;
     margin: 15px 0;
 
@@ -345,6 +345,25 @@ footer {
   }
 
 
+  /*Contenido Contacto*/
+
+  .principal-contacto {
+    background-image: url(img/contacto-b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%
+}
+
+.titulo-tabla {
+    background-color: rgba(65, 62, 62, 90%);
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin: 10px 0;
+    color: white;
+    border-radius: 8px;
+}
 
 
 
